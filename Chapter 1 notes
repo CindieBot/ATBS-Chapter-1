@@ -1,0 +1,28 @@
+#INPUT INTEGERS
+age = int(input('age??')) #input is always a string; must change
+print(age)
+
+#ADDING
+print(age + 45) #now you can add as 2 integers
+
+#INPUT STRINGS
+myName=input('your name?') #naming a variable, asking for input, print question
+print('hi'+ myName) #printing input result w 2 strings
+
+
+#LENGTH
+print(len(myName)) # printing length of input
+
+
+#FLOATS
+print(float(age))  #change to float
+
+#CHANGE TO STRING
+print('i am ' + str(age) + ' years old') #change the int back to a string
+
+#PRINT AS STRING
+print(str(3+4)) #printing as a string
+
+#INTEGER VS STRING INPUT:
+spam=int(input())
+spame=input()
